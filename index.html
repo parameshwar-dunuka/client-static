@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramki Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet"
+  >
+  <script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js">
+  </script>
+  <script src="Index.js" ></script>
+</head>
+<body>
+
+    <header id="heroheader">
+        <div style="position: sticky;padding-top: 0px;">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#" id="firmname"></a>
+            </div>
+            <ul class="nav-links" id="nav-links">
+
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+        </div>
+        <section id="hero">
+            <h1 id="herofirmname"></h1>
+            <p id="herofirmdesc"></p>
+            <a href="#contact" class="cta">Get in Touch</a>
+        </section>
+    </header>
+    
+    
+
+    <div id="aboutsections" class="flexcontainer">
+        
+    </div>
+    
+    <div id="servicesections">
+        <div class="flexcontainer">
+            <section class="flex-left-section"><h3 id="practiseareastitle"></h3></section>
+            <section class="flex-right-section"><p id="practiseareasdetails"></p></section>
+        </div>
+        <section id="services" class="practice-areas">
+            
+        </section>
+        
+    </div>
+    <div class="flexcontainer">
+        <section id="contact" class="left-section">
+            <h2>Contact Us</h2>
+            <div id="contact-area">
+
+            </div>
+        </section>
+        <section id="contact" class="right-section">
+            <h2>Schedule a Consulation</h2>
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="number" name="phone" placeholder="Your Phone Number" >
+                <input type="email" name="email" placeholder="Your Email (optional)" >
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+    
+    <footer>
+        <p id="footerdata"></p>
+        <p style="color: rgb(170, 170, 231);">&copy; 2024 P&C Software Development and Research. All rights reserved.</p>
+    </footer>
+
+    <script src="main.js" ></script>
+
+</body>
+</html>
