@@ -143,3 +143,14 @@ hamburger.addEventListener("click", () => {
 });
 
 
+gapi.load('auth2', () => {
+    gapi.auth2.init({
+        client_id: '928578840505-e3220cbqsctgcadvjm68r9c5scft8unf.apps.googleusercontent.com',
+        cookiepolicy: 'single_host_origin', // Ensures proper handling of cookies
+    }).then(() => {
+        console.log("Google API initialized");
+    }).catch(error => {
+        console.error("Initialization error:", error);
+    });
+});
+
