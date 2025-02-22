@@ -61,6 +61,6 @@ const PractiseAreas=[
         sectionId:'criminallaw',
         title:'Criminal Law',
         brief:'Defending your rights with skilled representation in criminal cases.',
-        details:'Corporate law involves legal practice related to business operations, mergers, and corporate governance. This is the way it works'
+        details:'Corporate law involves legal practice related to business operations, mergers, and corporate governance. This is the way it works.'
     }
 ]
